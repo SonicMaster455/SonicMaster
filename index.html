@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> My First Page </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width,initial-scale=1">
+	</head>
+	<body style="background-color:white">
+
+<!-- Header & Footer -->
+
+	<header>
+		
+	</header>
+	<footer>
+		
+	</footer>
+
+<!-- hyperlink  -->
+<nav>
+	<a href=""> Page 1 </a>
+		<a href="http://youtube.com"> Page 2 </a>
+</nav>
+
+<!-- Draw a form -->
+		<form action="" method="POST">
+			<input type="text"><br>
+			<input type="password"><br>
+			<input type="button"><br>
+			<input type="submit"><br>
+
+			<input type="radio" name="option" value="1"> Option 1<br>
+			<input type="radio" name="option" value="2"> Option 2<br>
+		</form>
+
+
+
+<!-- Draw a table -->
+		<table border="1">
+			<tr>
+				<th> Name </th>
+				<th> Email </th>
+			</tr>
+				
+			<tr>
+				<td> paul </td>
+				<td> paul@gmail.com </td>
+			</tr>
+		</table>
+
+<!-- canvasing -->
+
+	<canvas id="canvas1" width="200" height="100" style="border: 1px solid"></canvas>
+
+<!-- javaScript -->
+	<script>
+		var c =document.getElementById("canvas1");
+		var ctx = c.getContext("2d");
+		ctx.moveTo(0,0);
+		ctx.lineTo(200,100);
+		ctx.stroke();
+	</script> <br>
+
+<!-- Video -->
+
+	<video controls autoplay>
+		<source src="video/dewa.mp4" type="video/mp4">
+	</video>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SBjQ9tuuTJQ" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+		<marquee>	
+			<h1> Jordy Malonda</h1> 
+		</marquee>
+
+<marquee direction="right">
+		<p style="color:blue; font-size: 50px">
+			<b><i>I am Blue</b></i>
+		</p>
+</marquee>
+
+<marquee direction="up">
+		<p style="color:red; font-size: 70px" align="center">
+			<b>I am Red </b> <!-- tag font bold  -->
+		</p>
+</marquee>
+
+<img src="http://3.bp.blogspot.com/-h7mIaF6b_B0/UwbHxeUuBpI/AAAAAAAACFU/kaapl6MW4j0/s1600/Burung+Elang.jpg" alt="Should be Image" font-size:100px>
+</img>
+
+<ul style="list-style-type:arrow">
+	<li>Menu 1</li>
+	<li>Menu 2</li>
+	<li>Menu 3</li>
+</ul>
+
+<ol type="I">
+	<li>Menu 3</li>
+	<li>Menu 4</li>
+	<li>Menu 5</li>
+</ol>
+
+	</body>
+</html>
